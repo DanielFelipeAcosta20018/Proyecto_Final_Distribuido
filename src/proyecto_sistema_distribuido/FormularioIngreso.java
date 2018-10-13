@@ -47,7 +47,7 @@ public class FormularioIngreso extends javax.swing.JFrame {
         lblUsuario.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
         lblUsuario.setForeground(new java.awt.Color(0, 0, 0));
         lblUsuario.setText("Usuario ");
-        getContentPane().add(lblUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 80, 90, -1));
+        getContentPane().add(lblUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 80, 90, -1));
 
         jLabel2.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
@@ -68,7 +68,7 @@ public class FormularioIngreso extends javax.swing.JFrame {
                 txtUsuarioKeyTyped(evt);
             }
         });
-        getContentPane().add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 80, 150, -1));
+        getContentPane().add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 80, 160, -1));
         getContentPane().add(txtContraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 150, 160, -1));
 
         jButton1.setBackground(new java.awt.Color(0, 102, 204));
@@ -98,7 +98,7 @@ public class FormularioIngreso extends javax.swing.JFrame {
         });
         getContentPane().add(btnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 330, 140, 50));
 
-        Calcular.setBackground(new java.awt.Color(0, 51, 153));
+        Calcular.setBackground(new java.awt.Color(0, 102, 204));
         Calcular.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
         Calcular.setForeground(new java.awt.Color(0, 0, 0));
         Calcular.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/salir-de-mi-perfil-icono-3964-48.png"))); // NOI18N
@@ -108,7 +108,7 @@ public class FormularioIngreso extends javax.swing.JFrame {
                 CalcularActionPerformed(evt);
             }
         });
-        getContentPane().add(Calcular, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 320, 160, 60));
+        getContentPane().add(Calcular, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 330, 160, 50));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/91134-OIW11W-632.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 480, 410));
